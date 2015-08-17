@@ -1,4 +1,4 @@
 Abstract.tex
 Introduction.tex
 section_Observing_and_Analysis_subsection__.tex
-section_Results_subsection_J1925_16__.tex
+Results.tex
