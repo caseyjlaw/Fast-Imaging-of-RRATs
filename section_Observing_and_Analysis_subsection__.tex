@@ -2,6 +2,8 @@
 
 \subsection{Observations}
 
+VLA observations (Table \ref{tab:obs}) were made in April 2012 in C configuration and December 2012/January 2013 in A configuration. All observations were made with 10 millisecond integrations, two polarizations, two spectral windows, and a total data recording rate of 75 MB s$^{-1}$. The two spectral windows started at 1372 and 1756 MHz with a width of 128 MHz and 64 channels each (2 MHz channel width).
+
 \begin{table} 
     \begin{tabular}{ c c c c }
         Date & RRAT & Antenna Configuration & Duration \\ 
@@ -9,6 +11,12 @@
          26 December 2012 -- 1 January 2013 & J1925-16 & A & 4 hours \\ 
          14 December 2012 -- 1 January 2013 & J1911+00 & A & 12 hours \\
     \end{tabular} 
-    \caption{Observations of RRATs} 
+    \caption{Observations of RRATs \label{tab:obs}} 
 \end{table}
+  
+ \subsection{Analysis}
+ 
+ Pulse search was run at the Array Operations Center postprocessing cluster.
+ 
+ The search pipeline is written largely in Python.
   
