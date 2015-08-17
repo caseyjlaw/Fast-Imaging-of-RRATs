@@ -1,3 +1,2 @@
 abstract.tex
 section_Introduction__.tex
-section_Bibliography__.tex
