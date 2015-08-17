@@ -1,4 +1,4 @@
 Abstract.tex
 Introduction.tex
-section_Observing_and_Analysis_subsection__.tex
+Observing.tex
 Results.tex
