@@ -1,4 +1,4 @@
 Abstract.tex
 Introduction.tex
-Observing.tex
+Observations.tex
 Results.tex
