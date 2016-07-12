@@ -1,9 +1,8 @@
 \section{Analysis}
 
-We analyzed the data with a custom radio transient search pipeline called rtpipe \footnote{\url{https://github.com/caseyjlaw/rtpipe}}. rtpipe is an iteration on tpipe \footnote{\url{https://github.com/caseyjlaw/tpipe}}, which was
+We analyzed the data with a custom radio transient search pipeline called rtpipe \footnote{\url{https://github.com/caseyjlaw/rtpipe}}, which is a major redesign of tpipe\footnote{\url{https://github.com/caseyjlaw/tpipe}}. The analysis of VLA data for RRAT J0628+09 presented in \citet{Law_2012} was initially done with tpipe and the analysis presented here generally confirms and extends on those results. Generally, these packages are designed to combine single-dish time-domain algorithms (e.g., dispersion) with interferometric
+algorithms (e.g., imaging). A more detailed description can be found in \citet{2015ApJ...807...16L}.
 
+The transient search pipeline was run at the NRAO's Array Operations Center postprocessing cluster in Socorro, NM. In total, we collected roughly 4 TB of data for this program\footnote{The data are available under program code 12A-336.}
 
-Pulse search was run at the Array Operations Center postprocessing cluster.
- 
-
-The search pipeline is written largely in Python.
+Interested readers can find instructions to reproduce much of the analysis in this paper at \url{http://github.com/caseyjlaw/reproducing-fast-imaging-rrats}. This repository also includes a "binder", a one-click deployment of an environment to run a Jupyter notebook.
